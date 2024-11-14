@@ -1,17 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="tEy2NxESJ4EjP4a5HYwX">
-    <mxGraphModel dx="1304" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-16" value="" style="rounded=1;whiteSpace=wrap;html=1;direction=east;glass=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="40" width="1070" height="890" as="geometry" />
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-16" value="" style="rounded=1;whiteSpace=wrap;html=1;direction=east;glass=0;shadow=0;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="230" y="40" width="1270" height="890" as="geometry" />
         </mxCell>
         <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-5" value="Frontend" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="50" y="370" width="120" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="80" width="890" height="730" as="geometry" />
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-18" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="1060" height="730" as="geometry" />
         </mxCell>
         <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-4" value="Gateway Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="402.5" width="150" height="105" as="geometry" />
@@ -95,7 +95,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Bbl-g5fsRxxlCQ_jCXH_-13" target="Bbl-g5fsRxxlCQ_jCXH_-10">
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-35" value="" style="endArrow=classic;html=1;rounded=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Bbl-g5fsRxxlCQ_jCXH_-13" target="Bbl-g5fsRxxlCQ_jCXH_-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1320" y="410" as="sourcePoint" />
             <mxPoint x="1370" y="360" as="targetPoint" />
@@ -104,13 +104,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Bbl-g5fsRxxlCQ_jCXH_-13" target="Bbl-g5fsRxxlCQ_jCXH_-11">
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-36" value="" style="endArrow=classic;html=1;rounded=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Bbl-g5fsRxxlCQ_jCXH_-13" target="Bbl-g5fsRxxlCQ_jCXH_-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="660" as="sourcePoint" />
             <mxPoint x="90" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Bbl-g5fsRxxlCQ_jCXH_-13" target="Bbl-g5fsRxxlCQ_jCXH_-12">
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-37" value="" style="endArrow=classic;html=1;rounded=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Bbl-g5fsRxxlCQ_jCXH_-13" target="Bbl-g5fsRxxlCQ_jCXH_-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="690" as="sourcePoint" />
             <mxPoint x="150" y="640" as="targetPoint" />
@@ -141,6 +141,26 @@
             <Array as="points">
               <mxPoint x="470" y="190" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-43" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;jumpStyle=none;jumpSize=6;" edge="1" parent="1" source="Bbl-g5fsRxxlCQ_jCXH_-12" target="Bbl-g5fsRxxlCQ_jCXH_-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="952" y="756" as="sourcePoint" />
+            <mxPoint x="420" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1300" y="745" />
+              <mxPoint x="1300" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-44" value="Open Feign" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Bbl-g5fsRxxlCQ_jCXH_-43">
+          <mxGeometry x="0.7018" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="112" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-45" value="Open Feign" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Bbl-g5fsRxxlCQ_jCXH_-43">
+          <mxGeometry x="-0.0593" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
