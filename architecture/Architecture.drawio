@@ -1,0 +1,125 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="Page-1" id="tEy2NxESJ4EjP4a5HYwX">
+    <mxGraphModel dx="1593" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-16" value="" style="rounded=1;whiteSpace=wrap;html=1;direction=east;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="40" width="1070" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-5" value="Frontend" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="370" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="890" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-4" value="Gateway Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="402.5" width="150" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="63.5" y="429.5" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-10" value="Post Service" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-11" value="Review Service" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="520" y="385" width="435" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-12" value="Comment Service" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="435" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-13" value="Messaging Service" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="315" width="120" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://swiftlet.co.th/wp-content/uploads/2022/11/rabbitmq-logo-png-transparent.png;" vertex="1" parent="1">
+          <mxGeometry x="1101.65" y="425" width="56.7" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Bbl-g5fsRxxlCQ_jCXH_-5" target="Bbl-g5fsRxxlCQ_jCXH_-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="620" as="sourcePoint" />
+            <mxPoint x="110" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-19" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.mysql.com/common/logos/logo-mysql-170x115.png;" vertex="1" parent="1">
+          <mxGeometry x="800" y="145.25" width="132.37" height="89.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bbl-g5fsRxxlCQ_jCXH_-20" target="Bbl-g5fsRxxlCQ_jCXH_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-20" value="Post API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="150" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bbl-g5fsRxxlCQ_jCXH_-22" target="Bbl-g5fsRxxlCQ_jCXH_-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-22" value="Review API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="415" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bbl-g5fsRxxlCQ_jCXH_-23" target="Bbl-g5fsRxxlCQ_jCXH_-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-23" value="Comment API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="670" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-24" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.mysql.com/common/logos/logo-mysql-170x115.png;" vertex="1" parent="1">
+          <mxGeometry x="800" y="410.25" width="132.37" height="89.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-25" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.mysql.com/common/logos/logo-mysql-170x115.png;" vertex="1" parent="1">
+          <mxGeometry x="800" y="665.25" width="132.37" height="89.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-28" value="Config Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="827" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-30" value="Discovery Service&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Eureka&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="827" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-31" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Bbl-g5fsRxxlCQ_jCXH_-11" target="Bbl-g5fsRxxlCQ_jCXH_-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="290" as="sourcePoint" />
+            <mxPoint x="120" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-38" value="Open Feign" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Bbl-g5fsRxxlCQ_jCXH_-31">
+          <mxGeometry x="0.0575" y="2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-33" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Bbl-g5fsRxxlCQ_jCXH_-12" target="Bbl-g5fsRxxlCQ_jCXH_-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="700" as="sourcePoint" />
+            <mxPoint x="100" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-39" value="Open Feign" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Bbl-g5fsRxxlCQ_jCXH_-33">
+          <mxGeometry x="0.1014" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Bbl-g5fsRxxlCQ_jCXH_-13" target="Bbl-g5fsRxxlCQ_jCXH_-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="410" as="sourcePoint" />
+            <mxPoint x="1370" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1130" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Bbl-g5fsRxxlCQ_jCXH_-13" target="Bbl-g5fsRxxlCQ_jCXH_-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="660" as="sourcePoint" />
+            <mxPoint x="90" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bbl-g5fsRxxlCQ_jCXH_-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Bbl-g5fsRxxlCQ_jCXH_-13" target="Bbl-g5fsRxxlCQ_jCXH_-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="690" as="sourcePoint" />
+            <mxPoint x="150" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1130" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
