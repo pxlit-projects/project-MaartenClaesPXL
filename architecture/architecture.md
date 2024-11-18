@@ -1,7 +1,5 @@
 # Architecture
 
-:heavy_check_mark:_(COMMENT) Add a description of the architecture of your application and create a diagram like the one below. Link to the diagram in this document._
-
 ![Architecture](https://github.com/pxlit-projects/project-MaartenClaesPXL/blob/main/architecture/Architecture.png)
 
 ## Frontend (Angular)
@@ -28,6 +26,9 @@ De microservices melden zich aan bij de Discovery Service. Met Open Feign wordt 
 ## Messaging Service
 De Messaging Service gebruikt RabbitMQ voor de asynchrone communicatie tussen de microservices
 
+## Communicatie tussen microservices
+### Open Feign (Sync)
+Om een Post op te halen samen met de reviews en de reacties, wordt er door de Post Microservice bij de GET-request gebruik gemaakt van Open Feign die de Review- en Comment Microservice aanroept. De reviews en reacties (die gelinkt zijn aan de Post aan de hand van de ID's) worden dan meegegeven samen met de Post in de response.
 
-
-[Source](https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/introduce-eshoponcontainers-reference-app)
+### RabbitMQ (Async)
+Er wordt een RabbitMQ bericht naar de queue verzonden wanneer er een nieuwe reactie of review aan een post wordt toegevoegd. De Post Microservice krijgt dit bericht dan binnen en geeft de nodige ID's van de review of reactie mee aan de Post in de database.
