@@ -1,0 +1,24 @@
+/* Styling for the posts container */
+.list {  /* Set the width of the list container to 70% */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;  /* Maximaal een breedte van 600px */
+    margin-left: auto;
+    margin-right: auto;
+  }

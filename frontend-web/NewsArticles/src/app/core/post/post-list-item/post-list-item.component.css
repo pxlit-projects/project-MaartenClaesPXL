@@ -1,0 +1,49 @@
+.post-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  mat-card-footer {
+    font-size: 0.9em;
+  }
+  
+  mat-card {
+    max-width: 70%;
+  }
+
+  .concept-badge {
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .concept-badge {
+    background-color: #ff9800; /* Orange color for the badge */
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 16px; /* Aligns with the header's top */
+    right: 16px; /* Adjust to your design preference */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+  }
+
+  .published-badge {
+    background-color: #00b7ff; /* Orange color for the badge */
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 16px; /* Aligns with the header's top */
+    right: 16px; /* Adjust to your design preference */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+  }

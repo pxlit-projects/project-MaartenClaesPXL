@@ -1,0 +1,18 @@
+<mat-card class="post-card">
+    <mat-card-header>
+      <mat-card-title>
+        {{ post.title }}
+        @if (post.concept) {
+            <span class="concept-badge">Concept</span>
+        }
+        @else {
+            <span class="published-badge">Published</span>
+        }
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-footer>
+      <p class="text-muted">Author: {{ post.author }}</p>
+    </mat-card-footer>
+    
+  </mat-card>
+  

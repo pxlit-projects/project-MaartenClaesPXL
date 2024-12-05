@@ -1,0 +1,30 @@
+<h2>Posts</h2>
+
+<div class="filter-container">
+    <!-- Filter op inhoud -->
+    <mat-form-field appearance="fill">
+      <mat-label>Filter op inhoud</mat-label>
+      <input matInput [(ngModel)]="filters.content" (ngModelChange)="filterPosts()" placeholder="Zoek op inhoud">
+    </mat-form-field>
+  
+    <!-- Filter op auteur -->
+    <mat-form-field appearance="fill">
+      <mat-label>Filter op auteur</mat-label>
+      <input matInput [(ngModel)]="filters.author" (ngModelChange)="filterPosts()" placeholder="Zoek op auteur">
+    </mat-form-field>
+  
+    <!-- Filter op datum -->
+    <mat-form-field appearance="fill">
+      <mat-label>Filter op datum</mat-label>
+      <input matInput [matDatepicker]="picker" [(ngModel)]="filters.date" (ngModelChange)="filterPosts()" placeholder="Kies een datum">
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+  </div>
+
+<div class="list">
+@for (post of filteredPosts; track post) {
+    <app-post-list-item (click)="viewPost(post.id)" [post]="post"></app-post-list-item> 
+}
+<button mat-raised-button color="primary" (click)="addPost()">Add Post</button>
+</div>

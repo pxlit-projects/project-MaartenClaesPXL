@@ -1,0 +1,62 @@
+
+<form [formGroup]="postForm" (ngSubmit)="onSubmit()" class="post-form">
+    <h1>Post your post</h1>
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input 
+            type="text" 
+            id="title" 
+            minlength="3"
+            formControlName="title" 
+            name="title"
+            class="form-control" 
+            [class.is-invalid]="postForm.get('title')?.touched && postForm.get('title')?.invalid"
+        >
+        @if (postForm.get('title')?.touched && postForm.get('title')?.hasError('required')) {
+            <div class="error">
+                Title is required.
+            </div>
+        }
+        @if (postForm.get('title')?.touched && postForm.get('title')?.hasError('minlength')) {
+            <div class="error">
+                Title must be at least 3 characters long.
+            </div>
+        }
+    </div>
+    
+    <div class="form-group">
+        <label for="content">Content</label>
+        <textarea 
+            id="content" 
+            formControlName="content" 
+            name="content" 
+            class="form-control" 
+            [class.is-invalid]="postForm.get('content')?.touched && postForm.get('content')?.invalid"
+        ></textarea>
+        @if (postForm.get('content')?.touched && postForm.get('content')?.hasError('required')) {
+            <div class="error">
+                Content is required.
+            </div>
+        }
+    </div>
+    
+    <div class="form-group">
+        <label for="author">Author</label>
+        <input 
+            type="text" 
+            id="author" 
+            formControlName="author" 
+            name="author" 
+            class="form-control"
+            [class.is-invalid]="postForm.get('author')?.touched && postForm.get('author')?.invalid"
+        >
+        @if (postForm.get('author')?.touched && postForm.get('author')?.hasError('required')) {
+            <div class="error">
+                Author is required.
+            </div>
+        }
+    </div>
+    
+    <button type="submit" class="btn btn-primary" (click)="setIsConcept(false)" [disabled]="postForm.invalid">Submit</button>
+    <button type="submit" class="btn btn-secondary" (click)="setIsConcept(true)">Save as concept</button>
+</form>
