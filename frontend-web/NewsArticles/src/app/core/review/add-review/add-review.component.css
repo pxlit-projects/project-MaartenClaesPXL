@@ -1,0 +1,25 @@
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .full-width {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .button-group {
+    display: flex;
+    
+    margin: 10px 0;
+  }
+  
+  button.active {
+    background: #e0e0e0;
+    border-radius: 50%;
+  }
+  

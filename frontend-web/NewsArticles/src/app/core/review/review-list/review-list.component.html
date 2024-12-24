@@ -1,0 +1,15 @@
+<div class="list">
+    <h1>Reviews</h1>
+    @for (review of reviews; track review) {
+        <div class="review">
+            <h2>{{review.reviewer}}</h2>
+            @if (review.approved) {
+                <mat-icon class="approved">thumb_up</mat-icon>
+            } @else {
+                <mat-icon class="rejected">thumb_down</mat-icon>
+            }
+            <p>{{review.description}}</p>
+            
+        </div>
+    }
+</div>
