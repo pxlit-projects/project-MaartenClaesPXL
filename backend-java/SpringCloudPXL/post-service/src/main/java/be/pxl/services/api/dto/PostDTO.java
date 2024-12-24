@@ -1,8 +1,8 @@
 package be.pxl.services.api.dto;
 
-import be.pxl.services.domain.Comment;
+
 import be.pxl.services.domain.Post;
-import be.pxl.services.domain.Review;
+import be.pxl.services.domain.PostStatus;
 import lombok.Data;
 
 import java.util.Date;
@@ -15,17 +15,16 @@ public class PostDTO {
     private String content;
     private String author;
     private Date postDate;
-    private boolean isConcept;
-    private List<Review> reviews;
-    private List<Comment> comments;
+    private PostStatus status;
+    private List<ReviewDTO> reviews;
+    private List<Long> comments;
 
     public PostDTO(Post post) {
         this.id = post.getId();
         this.title = post.getTitle();
         this.content = post.getContent();
         this.author = post.getAuthor();
-        this.isConcept = post.isConcept();
-        this.reviews = post.getReviews();
+        this.status = post.getStatus();
         this.comments = post.getComments();
         this.postDate = post.getPostDate();
     }

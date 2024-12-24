@@ -2,7 +2,6 @@ package be.pxl.services.service;
 
 import be.pxl.services.api.dto.PostDTO;
 import be.pxl.services.api.request.CreatePostRequest;
-import org.springframework.http.ResponseEntity;
 
 import java.util.List;
 

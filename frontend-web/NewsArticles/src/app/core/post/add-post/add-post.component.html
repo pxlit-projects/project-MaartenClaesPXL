@@ -47,8 +47,9 @@
             id="author" 
             formControlName="author" 
             name="author" 
-            class="form-control"
+            class="form-control readonlyField"
             [class.is-invalid]="postForm.get('author')?.touched && postForm.get('author')?.invalid"
+            readonly
         >
         @if (postForm.get('author')?.touched && postForm.get('author')?.hasError('required')) {
             <div class="error">

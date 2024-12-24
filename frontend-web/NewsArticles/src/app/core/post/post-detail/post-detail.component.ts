@@ -5,11 +5,13 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
+import { AddReviewComponent } from '../../review/add-review/add-review.component';
+import { ReviewListComponent } from '../../review/review-list/review-list.component';
 
 @Component({
   selector: 'app-post-detail',
   standalone: true,
-  imports: [MatDividerModule, MatCardModule, MatButtonModule],
+  imports: [MatDividerModule, MatCardModule, MatButtonModule, AddReviewComponent, ReviewListComponent],
   templateUrl: './post-detail.component.html',
   styleUrl: './post-detail.component.css'
 })
@@ -21,7 +23,7 @@ onEdit(post: Post) {
       title: post.title,
       content: post.content,
       author: post.author,
-      isConcept: post.concept,
+      status: post.status,
       id: post.id
     },
   });
@@ -30,7 +32,8 @@ onEdit(post: Post) {
   postService: PostService = inject(PostService);
   id: number = this.route.snapshot.params['id'];
   post!: Post;
-
+  currentUsername: string = localStorage.getItem('username') || '';
+  role: string = localStorage.getItem('role') || '';
   ngOnInit() {
     
     this.postService.getPost(this.id).subscribe({

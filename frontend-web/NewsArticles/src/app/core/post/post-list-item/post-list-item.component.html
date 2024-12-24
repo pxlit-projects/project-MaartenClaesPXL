@@ -2,11 +2,20 @@
     <mat-card-header>
       <mat-card-title>
         {{ post.title }}
-        @if (post.concept) {
+        @if (post.status === "CONCEPT") {
             <span class="concept-badge">Concept</span>
         }
-        @else {
+        @else if(post.status === "PUBLISHED") {
             <span class="published-badge">Published</span>
+        }
+        @else if(post.status === "UNREVIEWED") {
+            <span class="waiting-badge">Waiting to be reviewed</span>
+        }
+        @else if(post.status === "REJECTED") {
+            <span class="rejected-badge">Rejected</span>
+        }
+        @else if(post.status === "APPROVED") {
+            <span class="approved-badge">Approved</span>
         }
       </mat-card-title>
     </mat-card-header>

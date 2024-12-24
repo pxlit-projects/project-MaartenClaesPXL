@@ -24,19 +24,23 @@ public class Post {
     private String content;
     private String author;
     private Date postDate;
-    private boolean isConcept;
+    private PostStatus status;
+    @ElementCollection(fetch = FetchType.EAGER)
+    @CollectionTable(name = "reviewIds", joinColumns = @JoinColumn(name = "post"))
+    @Column(name = "reviewId")
+    private List<Long> reviews = new ArrayList<>();
     @Transient
-    private List<Review> reviews;
-    @Transient
-    private List<Comment> comments;
+    private List<Long> comments = new ArrayList<>();
 
-    public Post(String title, String content, String author, boolean isConcept) {
+    public Post(String title, String content, String author, PostStatus status) {
         this.title = title;
         this.content = content;
         this.author = author;
-        this.isConcept = isConcept;
+        this.status = status;
         this.postDate = new Date();
-        this.reviews = new ArrayList<Review>();
-        this.comments = new ArrayList<Comment>();
+    }
+
+    public void addReview(Long id) {
+        this.reviews.add(id);
     }
 }

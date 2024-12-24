@@ -23,7 +23,7 @@
   }
   
   .concept-badge {
-    background-color: #ff9800; /* Orange color for the badge */
+    background-color: #ff9800;
     color: white;
     font-size: 12px;
     padding: 4px 8px;
@@ -36,7 +36,46 @@
   }
 
   .published-badge {
-    background-color: #00b7ff; /* Orange color for the badge */
+    background-color: yellow; 
+    color: black;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 16px; /* Aligns with the header's top */
+    right: 16px; /* Adjust to your design preference */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+  }
+
+  .waiting-badge {
+    background-color: cyan;
+    color: black;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 16px; /* Aligns with the header's top */
+    right: 16px; /* Adjust to your design preference */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+  }
+
+  .rejected-badge {
+    background-color: #ff0000;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 16px; /* Aligns with the header's top */
+    right: 16px; /* Adjust to your design preference */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+  }
+
+  .approved-badge {
+    background-color: limegreen;
     color: white;
     font-size: 12px;
     padding: 4px 8px;

@@ -55,3 +55,7 @@ label {
     background-color: #ccc;
     cursor: not-allowed;
 }
+
+.readonlyField {
+    color: grey;
+}

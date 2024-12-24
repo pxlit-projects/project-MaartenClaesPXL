@@ -18,5 +18,14 @@
       <button mat-raised-button color="accent">Share</button>
     </mat-card-actions> -->
     <button mat-raised-button color="primary" (click)="onEdit(post)">Edit</button>
+  
+    @if(post.status != "PUBLISHED") {
+      @if(currentUsername != post.author) {
+        <app-add-review [postId]="post.id"></app-add-review>
+      }
+      <app-review-list [reviews]="post.reviews"></app-review-list>
+    }
+    
   </mat-card>
+
   
