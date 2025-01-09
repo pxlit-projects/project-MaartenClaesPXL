@@ -35,7 +35,8 @@ public class PostService implements IPostService {
     private final PostRepository postRepository;
     private final ReviewServiceClient reviewServiceClient;
     private final CommentServiceClient commentServiceClient;
-    private static final Logger log = LoggerFactory.getLogger(PostService.class);   ay
+    private final EmailService emailService;
+    private static final Logger log = LoggerFactory.getLogger(PostService.class);
 
     public List<PostDTO> getAllPosts(String userRole) {
         if (userRole.equals("Redacteur")) {
@@ -57,11 +58,13 @@ public class PostService implements IPostService {
             status = PostStatus.UNREVIEWED;
             log.info("Adding unreviewed post");
         }
-        Post post = new Post(
-                postRequest.getTitle(),
-                postRequest.getContent(),
-                postRequest.getAuthor(),
-                status);
+        Post post = Post.builder()
+                .title(postRequest.getTitle())
+                .status(status)
+                .author(postRequest.getAuthor())
+                .authorEmail(postRequest.getAuthorEmail())
+                .content(postRequest.getContent())
+                .build();
         postRepository.save(post);
         log.info("Added post: " + post);
     }
@@ -75,7 +78,6 @@ public class PostService implements IPostService {
         }
         post.setTitle(postRequest.getTitle());
         post.setContent(postRequest.getContent());
-        post.setAuthor(postRequest.getAuthor());
         if (postRequest.isConcept()) {
             log.info("Updating concept post");
             post.setStatus(PostStatus.CONCEPT);
@@ -170,6 +172,7 @@ public class PostService implements IPostService {
         }
         post.addReview(message.getId());
         postRepository.save(post);
+        emailService.sendMail(post, message);
         log.info("Added review to post: " + post);
     }
 

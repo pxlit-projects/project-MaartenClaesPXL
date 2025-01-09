@@ -26,5 +26,6 @@ export class LoginComponent {
 
   model: User = {} as User;
   username: any;
+  email: any;
   role: any;
 }

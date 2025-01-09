@@ -14,6 +14,7 @@ public class PostDTO {
     private String title;
     private String content;
     private String author;
+    private String authorEmail;
     private Date postDate;
     private PostStatus status;
     private List<ReviewDTO> reviews;

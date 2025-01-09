@@ -9,5 +9,6 @@ public class CreatePostRequest {
     private String title;
     private String content;
     private String author;
+    private String authorEmail;
     private boolean isConcept;
 }

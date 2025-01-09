@@ -7,11 +7,12 @@ export class Post {
     title: string;
     content: string;
     author: string;
+    authorEmail: string;
     status: string;
     reviews: Review[];
     comments: Comment[];
 
-    constructor(id: number, postDate: Date, title: string, content: string, author: string, status: string, reviews: Review[], comments: Comment[]) {
+    constructor(id: number, postDate: Date, title: string, content: string, author: string, status: string, reviews: Review[], comments: Comment[], authorEmail: string) {
         this.id = id;
         this.title = title;
         this.content = content;
@@ -20,5 +21,6 @@ export class Post {
         this.status = status;
         this.reviews = reviews;
         this.comments = comments;
+        this.authorEmail = authorEmail;
     }
 }

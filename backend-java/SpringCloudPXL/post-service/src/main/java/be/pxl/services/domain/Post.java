@@ -23,6 +23,7 @@ public class Post {
     private String title;
     private String content;
     private String author;
+    private String authorEmail;
     private Date postDate;
     private PostStatus status;
     @ElementCollection(fetch = FetchType.EAGER)

@@ -21,6 +21,7 @@ export class AddPostComponent {
   postForm: FormGroup = this.fb.group({
     title: ['', Validators.required],
     content: ['', [Validators.required,]],
+    authorEmail: [localStorage.getItem("email"),[Validators.required]],
     author: [localStorage.getItem("username"),[Validators.required]],
     isConcept: [false]
   });
@@ -52,6 +53,7 @@ export class AddPostComponent {
         title: params['title'] || '',
         content: params['content'] || '',
         author: params['author'] || localStorage.getItem("username"),
+        authorEmail: params['authorEmail'] || localStorage.getItem("email"),
         isConcept: params['isConcept'] || false,
       });
       this.id = params['id'] || 0;

@@ -59,3 +59,7 @@ label {
 .readonlyField {
     color: grey;
 }
+
+.hiddenField {
+    display: none;
+}
