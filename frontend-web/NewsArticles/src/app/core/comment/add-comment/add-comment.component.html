@@ -1,0 +1,23 @@
+<mat-card class="comment-card">
+    <form #commentForm="ngForm" (ngSubmit)="onSubmit(commentForm)">
+      <mat-form-field class="full-width">
+        <mat-label>Comment</mat-label>
+        <textarea 
+          matInput 
+          placeholder="Write your comment here" 
+          name="comment" 
+          [(ngModel)]="model.text"
+          required>
+        </textarea>
+      </mat-form-field>
+  
+      <button 
+        mat-raised-button 
+        color="primary" 
+        type="submit" 
+        [disabled]="commentForm.invalid">
+        Submit
+      </button>
+    </form>
+  </mat-card>
+  

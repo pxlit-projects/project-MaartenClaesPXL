@@ -4,14 +4,11 @@ import be.pxl.services.api.dto.ReviewDTO;
 import be.pxl.services.api.request.CreateReviewRequest;
 import be.pxl.services.domain.Review;
 import be.pxl.services.repository.ReviewRepository;
-import jakarta.annotation.PostConstruct;
 import jakarta.ws.rs.NotFoundException;
 import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
-import org.springframework.amqp.support.converter.MessageConverter;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -19,12 +16,11 @@ import org.springframework.stereotype.Service;
 public class ReviewService implements IReviewService {
 
     private final ReviewRepository reviewRepository;
-    @Autowired
-    private RabbitTemplate rabbitTemplate;
-
-
+    private final RabbitTemplate rabbitTemplate;
+    private static final Logger log = LoggerFactory.getLogger(ReviewService.class);
 
     public void addReview(CreateReviewRequest createReviewRequest, Long postId) {
+        log.info("addReview: " + createReviewRequest);
         Review review = Review.builder()
                 .postId(postId)
                 .description(createReviewRequest.getDescription())
@@ -32,15 +28,17 @@ public class ReviewService implements IReviewService {
                 .reviewer(createReviewRequest.getReviewer())
                 .build();
         reviewRepository.save(review);
+        log.info("Review added: " + review);
 
-        rabbitTemplate.setMessageConverter(new Jackson2JsonMessageConverter());
         rabbitTemplate.convertAndSend("reviewQueue", review);
+        log.info("Review added to queue");
     }
 
     @Override
     public ReviewDTO getReviewById(Long id) {
         Review review = reviewRepository.findById(id).orElse(null);
         if (review == null) {
+            log.info("Review not found: " + id);
             throw new NotFoundException("Review not found");
         }
         return new ReviewDTO(review);

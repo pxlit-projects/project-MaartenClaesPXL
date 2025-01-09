@@ -29,7 +29,9 @@ public class Post {
     @CollectionTable(name = "reviewIds", joinColumns = @JoinColumn(name = "post"))
     @Column(name = "reviewId")
     private List<Long> reviews = new ArrayList<>();
-    @Transient
+    @ElementCollection(fetch = FetchType.EAGER)
+    @CollectionTable(name = "commentIds", joinColumns = @JoinColumn(name = "post"))
+    @Column(name = "commentId")
     private List<Long> comments = new ArrayList<>();
 
     public Post(String title, String content, String author, PostStatus status) {
@@ -42,5 +44,13 @@ public class Post {
 
     public void addReview(Long id) {
         this.reviews.add(id);
+    }
+
+    public void addComment(Long id) {
+        this.comments.add(id);
+    }
+
+    public void deleteComment(Long id) {
+        this.comments.remove(id);
     }
 }

@@ -13,4 +13,6 @@ public interface IPostService {
     PostDTO getPostById(Long id);
 
     void updatePost(Long id, CreatePostRequest postRequest);
+
+    PostDTO publishPost(Long id);
 }

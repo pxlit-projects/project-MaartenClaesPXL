@@ -17,7 +17,7 @@ public class PostDTO {
     private Date postDate;
     private PostStatus status;
     private List<ReviewDTO> reviews;
-    private List<Long> comments;
+    private List<CommentDTO> comments;
 
     public PostDTO(Post post) {
         this.id = post.getId();
@@ -25,7 +25,6 @@ public class PostDTO {
         this.content = post.getContent();
         this.author = post.getAuthor();
         this.status = post.getStatus();
-        this.comments = post.getComments();
         this.postDate = post.getPostDate();
     }
 }

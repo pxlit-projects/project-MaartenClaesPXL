@@ -1,0 +1,30 @@
+<div>
+    @if(!isEditing){
+        <div>
+            <small>- {{comment.commenter}}</small>
+            <p>{{comment.text}}</p>
+        </div>
+        @if (comment.commenter == loggedInUser) {
+            <button mat-raised-button color="warn" (click)="openDeleteConfirmation(comment.id)">
+                <mat-icon>delete</mat-icon>
+            </button>
+            <button mat-raised-button color="primary" (click)="toggleEditMode()">
+                <mat-icon>edit</mat-icon>
+            </button>
+        }
+    } @else {
+
+    <form #editForm="ngForm">
+        <small>- {{comment.commenter}}</small>
+        <br/>
+        <textarea [(ngModel)]="editComment" name="commentText"></textarea>
+        <br/>
+        <button mat-raised-button color="primary" (click)="saveEdit(comment)">
+            Save
+        </button>
+        <button mat-raised-button color="warn" (click)="toggleEditMode()">
+            Cancel
+        </button>
+    </form>
+    }
+</div>

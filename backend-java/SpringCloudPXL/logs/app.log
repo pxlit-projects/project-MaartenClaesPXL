@@ -1,0 +1,131 @@
+2025-01-09T16:42:22.893+0100 INFO               [main]                         be.pxl.services.CommentServiceApplication - Starting CommentServiceApplication using Java 21.0.2 with PID 15912 (C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\comment-service\target\classes started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL)
+2025-01-09T16:42:22.894+0100 DEBUG              [main]                         be.pxl.services.CommentServiceApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-09T16:42:22.895+0100 INFO               [main]                         be.pxl.services.CommentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T16:42:31.230+0100 INFO               [main]                         be.pxl.services.CommentServiceApplication - Started CommentServiceApplication in 10.444 seconds (process running for 11.024)
+2025-01-09T16:42:32.114+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Starting PostServiceApplication using Java 21.0.2 with PID 8008 (C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\post-service\target\classes started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL)
+2025-01-09T16:42:32.115+0100 DEBUG              [main]                         be.pxl.services.PostServiceApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-09T16:42:32.116+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T16:43:32.124+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Starting PostServiceApplication using Java 21.0.2 with PID 20852 (C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\post-service\target\classes started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL)
+2025-01-09T16:43:32.125+0100 DEBUG              [main]                         be.pxl.services.PostServiceApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-09T16:43:32.126+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T16:43:41.875+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplication - Starting ReviewServiceApplication using Java 21.0.2 with PID 23760 (C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\review-service\target\classes started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL)
+2025-01-09T16:43:41.877+0100 DEBUG              [main]                         be.pxl.services.ReviewServiceApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-09T16:43:41.877+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T16:43:43.466+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Started PostServiceApplication in 13.418 seconds (process running for 14.099)
+2025-01-09T16:43:50.111+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplication - Started ReviewServiceApplication in 10.934 seconds (process running for 11.867)
+2025-01-09T16:45:28.446+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.api.controller.PostController - Redacteur - get all posts
+2025-01-09T16:45:30.258+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.api.controller.PostController - GET post: 1
+2025-01-09T16:45:30.533+0100 INFO               [http-nio-8093-exec-2]         be.pxl.services.api.controller.ReviewController - GET review: 1
+2025-01-09T16:45:30.655+0100 INFO               [http-nio-8093-exec-1]         be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-09T16:45:30.671+0100 INFO               [http-nio-8093-exec-3]         be.pxl.services.api.controller.ReviewController - GET review: 3
+2025-01-09T16:45:30.683+0100 INFO               [http-nio-8093-exec-5]         be.pxl.services.api.controller.ReviewController - GET review: 4
+2025-01-09T16:45:30.695+0100 INFO               [http-nio-8093-exec-4]         be.pxl.services.api.controller.ReviewController - GET review: 5
+2025-01-09T16:45:30.709+0100 INFO               [http-nio-8093-exec-6]         be.pxl.services.api.controller.ReviewController - GET review: 6
+2025-01-09T16:45:30.722+0100 INFO               [http-nio-8093-exec-9]         be.pxl.services.api.controller.ReviewController - GET review: 7
+2025-01-09T16:45:30.734+0100 INFO               [http-nio-8093-exec-8]         be.pxl.services.api.controller.ReviewController - GET review: 8
+2025-01-09T16:45:30.747+0100 INFO               [http-nio-8093-exec-7]         be.pxl.services.api.controller.ReviewController - GET review: 9
+2025-01-09T16:45:30.892+0100 INFO               [http-nio-8084-exec-3]         be.pxl.services.api.controller.CommentController - GET comment: 1
+2025-01-09T16:45:31.006+0100 INFO               [http-nio-8084-exec-1]         be.pxl.services.api.controller.CommentController - GET comment: 2
+2025-01-09T16:45:42.871+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.api.controller.PostController - GET post: 1
+2025-01-09T16:45:42.892+0100 INFO               [http-nio-8093-exec-2]         be.pxl.services.api.controller.ReviewController - GET review: 1
+2025-01-09T16:45:42.910+0100 INFO               [http-nio-8093-exec-1]         be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-09T16:45:42.923+0100 INFO               [http-nio-8093-exec-3]         be.pxl.services.api.controller.ReviewController - GET review: 3
+2025-01-09T16:45:42.936+0100 INFO               [http-nio-8093-exec-5]         be.pxl.services.api.controller.ReviewController - GET review: 4
+2025-01-09T16:45:42.948+0100 INFO               [http-nio-8093-exec-4]         be.pxl.services.api.controller.ReviewController - GET review: 5
+2025-01-09T16:45:42.959+0100 INFO               [http-nio-8093-exec-6]         be.pxl.services.api.controller.ReviewController - GET review: 6
+2025-01-09T16:45:42.972+0100 INFO               [http-nio-8093-exec-9]         be.pxl.services.api.controller.ReviewController - GET review: 7
+2025-01-09T16:45:42.986+0100 INFO               [http-nio-8093-exec-8]         be.pxl.services.api.controller.ReviewController - GET review: 8
+2025-01-09T16:45:42.998+0100 INFO               [http-nio-8093-exec-7]         be.pxl.services.api.controller.ReviewController - GET review: 9
+2025-01-09T16:45:43.012+0100 INFO               [http-nio-8084-exec-2]         be.pxl.services.api.controller.CommentController - GET comment: 1
+2025-01-09T16:45:43.025+0100 INFO               [http-nio-8084-exec-4]         be.pxl.services.api.controller.CommentController - GET comment: 2
+2025-01-09T16:46:42.591+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.api.controller.PostController - GET post: 1
+2025-01-09T16:46:42.614+0100 INFO               [http-nio-8093-exec-2]         be.pxl.services.api.controller.ReviewController - GET review: 1
+2025-01-09T16:46:42.632+0100 INFO               [http-nio-8093-exec-1]         be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-09T16:46:42.646+0100 INFO               [http-nio-8093-exec-3]         be.pxl.services.api.controller.ReviewController - GET review: 3
+2025-01-09T16:46:42.657+0100 INFO               [http-nio-8093-exec-5]         be.pxl.services.api.controller.ReviewController - GET review: 4
+2025-01-09T16:46:42.669+0100 INFO               [http-nio-8093-exec-4]         be.pxl.services.api.controller.ReviewController - GET review: 5
+2025-01-09T16:46:42.678+0100 INFO               [http-nio-8093-exec-6]         be.pxl.services.api.controller.ReviewController - GET review: 6
+2025-01-09T16:46:42.687+0100 INFO               [http-nio-8093-exec-9]         be.pxl.services.api.controller.ReviewController - GET review: 7
+2025-01-09T16:46:42.699+0100 INFO               [http-nio-8093-exec-8]         be.pxl.services.api.controller.ReviewController - GET review: 8
+2025-01-09T16:46:42.710+0100 INFO               [http-nio-8093-exec-7]         be.pxl.services.api.controller.ReviewController - GET review: 9
+2025-01-09T16:46:42.721+0100 INFO               [http-nio-8084-exec-7]         be.pxl.services.api.controller.CommentController - GET comment: 1
+2025-01-09T16:46:42.733+0100 INFO               [http-nio-8084-exec-6]         be.pxl.services.api.controller.CommentController - GET comment: 2
+2025-01-09T16:49:02.406+0100 INFO               [http-nio-8093-exec-2]         be.pxl.services.api.controller.ReviewController - POST review: CreateReviewRequest(isApproved=false, description=huhh, reviewer=wilhelm)
+2025-01-09T16:49:02.406+0100 INFO               [http-nio-8093-exec-2]         be.pxl.services.service.ReviewService - addReview: CreateReviewRequest(isApproved=false, description=huhh, reviewer=wilhelm)
+2025-01-09T16:49:02.561+0100 INFO               [http-nio-8093-exec-2]         be.pxl.services.service.ReviewService - Review added: Review(id=52, postId=1, isApproved=false, description=huhh, reviewer=wilhelm)
+2025-01-09T16:49:02.678+0100 INFO               [http-nio-8093-exec-2]         be.pxl.services.service.ReviewService - Review added to queue
+2025-01-09T16:49:02.701+0100 INFO               [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] be.pxl.services.service.PostService - Adding review from queue: Review(id=52, postId=1, isApproved=false, description=huhh, reviewer=wilhelm)
+2025-01-09T16:49:02.831+0100 INFO               [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] be.pxl.services.service.PostService - Added review to post: Post(id=1, title=dit werkt, right?, content=i guess, author=freewill, postDate=2025-01-09 15:58:10.869, status=REJECTED, reviews=[1, 2, 3, 4, 5, 6, 7, 8, 9, 52], comments=[1, 2])
+2025-01-09T16:49:03.257+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.api.controller.PostController - GET post: 1
+2025-01-09T16:49:03.281+0100 INFO               [http-nio-8093-exec-1]         be.pxl.services.api.controller.ReviewController - GET review: 1
+2025-01-09T16:49:03.294+0100 INFO               [http-nio-8093-exec-3]         be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-09T16:49:03.306+0100 INFO               [http-nio-8093-exec-5]         be.pxl.services.api.controller.ReviewController - GET review: 3
+2025-01-09T16:49:03.317+0100 INFO               [http-nio-8093-exec-4]         be.pxl.services.api.controller.ReviewController - GET review: 4
+2025-01-09T16:49:03.326+0100 INFO               [http-nio-8093-exec-6]         be.pxl.services.api.controller.ReviewController - GET review: 5
+2025-01-09T16:49:03.337+0100 INFO               [http-nio-8093-exec-9]         be.pxl.services.api.controller.ReviewController - GET review: 6
+2025-01-09T16:49:03.348+0100 INFO               [http-nio-8093-exec-8]         be.pxl.services.api.controller.ReviewController - GET review: 7
+2025-01-09T16:49:03.361+0100 INFO               [http-nio-8093-exec-7]         be.pxl.services.api.controller.ReviewController - GET review: 8
+2025-01-09T16:49:03.373+0100 INFO               [http-nio-8093-exec-10]        be.pxl.services.api.controller.ReviewController - GET review: 9
+2025-01-09T16:49:03.384+0100 INFO               [http-nio-8093-exec-2]         be.pxl.services.api.controller.ReviewController - GET review: 52
+2025-01-09T16:49:03.396+0100 INFO               [http-nio-8084-exec-8]         be.pxl.services.api.controller.CommentController - GET comment: 1
+2025-01-09T16:49:03.407+0100 INFO               [http-nio-8084-exec-9]         be.pxl.services.api.controller.CommentController - GET comment: 2
+2025-01-09T16:49:35.131+0100 INFO               [http-nio-8093-exec-1]         be.pxl.services.api.controller.ReviewController - POST review: CreateReviewRequest(isApproved=true, description=ja toch wel?, reviewer=wilhelm)
+2025-01-09T16:49:35.132+0100 INFO               [http-nio-8093-exec-1]         be.pxl.services.service.ReviewService - addReview: CreateReviewRequest(isApproved=true, description=ja toch wel?, reviewer=wilhelm)
+2025-01-09T16:49:35.164+0100 INFO               [http-nio-8093-exec-1]         be.pxl.services.service.ReviewService - Review added: Review(id=53, postId=1, isApproved=true, description=ja toch wel?, reviewer=wilhelm)
+2025-01-09T16:49:35.165+0100 INFO               [http-nio-8093-exec-1]         be.pxl.services.service.ReviewService - Review added to queue
+2025-01-09T16:49:35.171+0100 INFO               [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] be.pxl.services.service.PostService - Adding review from queue: Review(id=53, postId=1, isApproved=true, description=ja toch wel?, reviewer=wilhelm)
+2025-01-09T16:49:35.272+0100 INFO               [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] be.pxl.services.service.PostService - Added review to post: Post(id=1, title=dit werkt, right?, content=i guess, author=freewill, postDate=2025-01-09 15:58:10.869, status=APPROVED, reviews=[1, 2, 3, 4, 5, 6, 7, 8, 9, 52, 53], comments=[1, 2])
+2025-01-09T16:49:35.898+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.api.controller.PostController - GET post: 1
+2025-01-09T16:49:35.915+0100 INFO               [http-nio-8093-exec-3]         be.pxl.services.api.controller.ReviewController - GET review: 1
+2025-01-09T16:49:35.930+0100 INFO               [http-nio-8093-exec-5]         be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-09T16:49:35.944+0100 INFO               [http-nio-8093-exec-4]         be.pxl.services.api.controller.ReviewController - GET review: 3
+2025-01-09T16:49:35.956+0100 INFO               [http-nio-8093-exec-6]         be.pxl.services.api.controller.ReviewController - GET review: 4
+2025-01-09T16:49:35.969+0100 INFO               [http-nio-8093-exec-9]         be.pxl.services.api.controller.ReviewController - GET review: 5
+2025-01-09T16:49:35.980+0100 INFO               [http-nio-8093-exec-8]         be.pxl.services.api.controller.ReviewController - GET review: 6
+2025-01-09T16:49:35.990+0100 INFO               [http-nio-8093-exec-7]         be.pxl.services.api.controller.ReviewController - GET review: 7
+2025-01-09T16:49:36.004+0100 INFO               [http-nio-8093-exec-10]        be.pxl.services.api.controller.ReviewController - GET review: 8
+2025-01-09T16:49:36.021+0100 INFO               [http-nio-8093-exec-2]         be.pxl.services.api.controller.ReviewController - GET review: 9
+2025-01-09T16:49:36.040+0100 INFO               [http-nio-8093-exec-1]         be.pxl.services.api.controller.ReviewController - GET review: 52
+2025-01-09T16:49:36.054+0100 INFO               [http-nio-8093-exec-3]         be.pxl.services.api.controller.ReviewController - GET review: 53
+2025-01-09T16:49:36.067+0100 INFO               [http-nio-8084-exec-10]        be.pxl.services.api.controller.CommentController - GET comment: 1
+2025-01-09T16:49:36.081+0100 INFO               [http-nio-8084-exec-3]         be.pxl.services.api.controller.CommentController - GET comment: 2
+2025-01-09T16:49:48.346+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.api.controller.PostController - Redacteur - get all posts
+2025-01-09T16:50:11.892+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.api.controller.PostController - POST post request: CreatePostRequest(title=kas, content=pas, author=wilhelm, isConcept=false)
+2025-01-09T16:50:11.892+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.service.PostService - Adding unreviewed post
+2025-01-09T16:50:11.939+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.service.PostService - Added post: Post(id=2, title=kas, content=pas, author=wilhelm, postDate=Thu Jan 09 16:50:11 CET 2025, status=UNREVIEWED, reviews=[], comments=[])
+2025-01-09T16:50:11.984+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.api.controller.PostController - Redacteur - get all posts
+2025-01-09T16:50:24.437+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.api.controller.PostController - Redacteur - get all posts
+2025-01-09T16:50:25.276+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.api.controller.PostController - GET post: 2
+2025-01-09T16:50:30.173+0100 INFO               [http-nio-8093-exec-5]         be.pxl.services.api.controller.ReviewController - POST review: CreateReviewRequest(isApproved=false, description=toch inet, reviewer=ik)
+2025-01-09T16:50:30.174+0100 INFO               [http-nio-8093-exec-5]         be.pxl.services.service.ReviewService - addReview: CreateReviewRequest(isApproved=false, description=toch inet, reviewer=ik)
+2025-01-09T16:50:30.229+0100 INFO               [http-nio-8093-exec-5]         be.pxl.services.service.ReviewService - Review added: Review(id=54, postId=2, isApproved=false, description=toch inet, reviewer=ik)
+2025-01-09T16:50:30.230+0100 INFO               [http-nio-8093-exec-5]         be.pxl.services.service.ReviewService - Review added to queue
+2025-01-09T16:50:30.250+0100 INFO               [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] be.pxl.services.service.PostService - Adding review from queue: Review(id=54, postId=2, isApproved=false, description=toch inet, reviewer=ik)
+2025-01-09T16:50:30.297+0100 INFO               [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] be.pxl.services.service.PostService - Added review to post: Post(id=2, title=kas, content=pas, author=wilhelm, postDate=2025-01-09 16:50:11.892, status=REJECTED, reviews=[54], comments=[])
+2025-01-09T16:50:30.838+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.api.controller.PostController - GET post: 2
+2025-01-09T16:50:30.862+0100 INFO               [http-nio-8093-exec-4]         be.pxl.services.api.controller.ReviewController - GET review: 54
+2025-01-09T16:50:36.528+0100 INFO               [http-nio-8093-exec-6]         be.pxl.services.api.controller.ReviewController - POST review: CreateReviewRequest(isApproved=true, description=welles, reviewer=ik)
+2025-01-09T16:50:36.529+0100 INFO               [http-nio-8093-exec-6]         be.pxl.services.service.ReviewService - addReview: CreateReviewRequest(isApproved=true, description=welles, reviewer=ik)
+2025-01-09T16:50:36.556+0100 INFO               [http-nio-8093-exec-6]         be.pxl.services.service.ReviewService - Review added: Review(id=55, postId=2, isApproved=true, description=welles, reviewer=ik)
+2025-01-09T16:50:36.557+0100 INFO               [http-nio-8093-exec-6]         be.pxl.services.service.ReviewService - Review added to queue
+2025-01-09T16:50:36.560+0100 INFO               [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] be.pxl.services.service.PostService - Adding review from queue: Review(id=55, postId=2, isApproved=true, description=welles, reviewer=ik)
+2025-01-09T16:50:36.603+0100 INFO               [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] be.pxl.services.service.PostService - Added review to post: Post(id=2, title=kas, content=pas, author=wilhelm, postDate=2025-01-09 16:50:11.892, status=APPROVED, reviews=[54, 55], comments=[])
+2025-01-09T16:50:37.221+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.api.controller.PostController - GET post: 2
+2025-01-09T16:50:37.245+0100 INFO               [http-nio-8093-exec-9]         be.pxl.services.api.controller.ReviewController - GET review: 54
+2025-01-09T16:50:37.257+0100 INFO               [http-nio-8093-exec-8]         be.pxl.services.api.controller.ReviewController - GET review: 55
+2025-01-09T16:51:05.435+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.api.controller.PostController - Redacteur - get all posts
+2025-01-09T16:51:06.976+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.api.controller.PostController - GET post: 1
+2025-01-09T16:51:06.997+0100 INFO               [http-nio-8093-exec-7]         be.pxl.services.api.controller.ReviewController - GET review: 1
+2025-01-09T16:51:07.014+0100 INFO               [http-nio-8093-exec-10]        be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-09T16:51:07.027+0100 INFO               [http-nio-8093-exec-2]         be.pxl.services.api.controller.ReviewController - GET review: 3
+2025-01-09T16:51:07.036+0100 INFO               [http-nio-8093-exec-1]         be.pxl.services.api.controller.ReviewController - GET review: 4
+2025-01-09T16:51:07.043+0100 INFO               [http-nio-8093-exec-3]         be.pxl.services.api.controller.ReviewController - GET review: 5
+2025-01-09T16:51:07.052+0100 INFO               [http-nio-8093-exec-5]         be.pxl.services.api.controller.ReviewController - GET review: 6
+2025-01-09T16:51:07.061+0100 INFO               [http-nio-8093-exec-4]         be.pxl.services.api.controller.ReviewController - GET review: 7
+2025-01-09T16:51:07.069+0100 INFO               [http-nio-8093-exec-6]         be.pxl.services.api.controller.ReviewController - GET review: 8
+2025-01-09T16:51:07.076+0100 INFO               [http-nio-8093-exec-9]         be.pxl.services.api.controller.ReviewController - GET review: 9
+2025-01-09T16:51:07.083+0100 INFO               [http-nio-8093-exec-8]         be.pxl.services.api.controller.ReviewController - GET review: 52
+2025-01-09T16:51:07.091+0100 INFO               [http-nio-8093-exec-7]         be.pxl.services.api.controller.ReviewController - GET review: 53
+2025-01-09T16:51:07.099+0100 INFO               [http-nio-8084-exec-2]         be.pxl.services.api.controller.CommentController - GET comment: 1
+2025-01-09T16:51:07.108+0100 INFO               [http-nio-8084-exec-4]         be.pxl.services.api.controller.CommentController - GET comment: 2
+2025-01-09T16:51:08.850+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.api.controller.PostController - Redacteur - get all posts

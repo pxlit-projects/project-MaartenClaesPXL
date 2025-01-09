@@ -36,6 +36,7 @@ export class PostListComponent {
   postService: PostService = inject(PostService);
   router: Router = inject(Router);
   posts: Post[] = [];
+  role: string = localStorage.getItem('role') || '';
   filteredPosts: Post[] = [];
   filters = {
     content: '',

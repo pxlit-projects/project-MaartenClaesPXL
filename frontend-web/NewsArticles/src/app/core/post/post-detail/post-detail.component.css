@@ -29,4 +29,9 @@
   mat-chip {
     margin-top: 10px;
   }
+
+  .approved {
+    background-color: limegreen;
+    margin : 10px;
+  }
   

@@ -1,4 +1,12 @@
 <mat-card class="detail-card">
+  @if (post.status == "APPROVED" && post.author == currentUsername) {
+    <div>
+      <mat-card class="approved">
+      <h2 class="approved">Your post has been approved. <br/> Do you want to publish it?</h2>
+      <button mat-raised-button color="primary" (click)="onPublish(post)">Publish</button>
+      </mat-card>
+    </div>
+  }
     <mat-card-header>
       <mat-card-title>{{ post.title }}</mat-card-title>
       <mat-card-subtitle>
@@ -17,7 +25,9 @@
       <button mat-raised-button color="primary">Like</button>
       <button mat-raised-button color="accent">Share</button>
     </mat-card-actions> -->
-    <button mat-raised-button color="primary" (click)="onEdit(post)">Edit</button>
+    @if (role.toLocaleLowerCase() == "redacteur") {
+      <button mat-raised-button color="primary" (click)="onEdit(post)">Edit</button>
+    }
   
     @if(post.status != "PUBLISHED") {
       @if(currentUsername != post.author) {
@@ -26,6 +36,8 @@
       <app-review-list [reviews]="post.reviews"></app-review-list>
     }
     
+    <app-add-comment [postId]="post.id" (commentAdded)="commentAdded($event)"></app-add-comment>
+    <app-comment-list [comments]="post.comments"></app-comment-list>
   </mat-card>
 
   

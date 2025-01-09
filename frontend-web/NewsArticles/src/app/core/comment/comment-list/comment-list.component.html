@@ -1,0 +1,10 @@
+<mat-card class="comment-card">
+    <mat-card-title>Comments</mat-card-title>
+
+    @for (comment of comments; track $index) {
+    <app-comment-list-item [comment]="comment" class="comment-item" (deleteComment)="commentDeleted($event)"></app-comment-list-item>
+
+    }
+
+</mat-card>
+  

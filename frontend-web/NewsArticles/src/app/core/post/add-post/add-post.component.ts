@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup, FormsModule, NgForm, ReactiveFormsModule, Valid
 import { Post } from '../../../models/post.model';
 import { PostService } from '../../../services/post.service';
 import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-add-post',
@@ -16,6 +17,7 @@ export class AddPostComponent {
   postService: PostService = inject(PostService);
   fb: FormBuilder = inject(FormBuilder);
   route: ActivatedRoute = inject(ActivatedRoute);
+  router: Router = inject(Router);
   postForm: FormGroup = this.fb.group({
     title: ['', Validators.required],
     content: ['', [Validators.required,]],
@@ -34,10 +36,12 @@ export class AddPostComponent {
     if (this.id != 0) {
       this.postService.updatePost(newPost, this.id).subscribe(post => {
         this.postForm.reset();
+        this.router.navigate(['/posts-list']);
       });
     } else {
       this.postService.addPost(newPost).subscribe(post => {
         this.postForm.reset();
+        this.router.navigate(['/posts-list']);
       });
     }
   }

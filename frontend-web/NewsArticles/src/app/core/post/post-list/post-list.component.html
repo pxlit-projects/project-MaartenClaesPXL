@@ -26,5 +26,7 @@
 @for (post of filteredPosts; track post) {
     <app-post-list-item (click)="viewPost(post.id)" [post]="post"></app-post-list-item> 
 }
-<button mat-raised-button color="primary" (click)="addPost()">Add Post</button>
+@if (role.toLocaleLowerCase() == "redacteur") {
+  <button mat-raised-button color="primary" (click)="addPost()">Add Post</button>
+}
 </div>

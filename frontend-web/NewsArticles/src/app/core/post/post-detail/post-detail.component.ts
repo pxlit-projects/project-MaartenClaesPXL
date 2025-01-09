@@ -7,16 +7,21 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
 import { AddReviewComponent } from '../../review/add-review/add-review.component';
 import { ReviewListComponent } from '../../review/review-list/review-list.component';
+import { AddCommentComponent } from "../../comment/add-comment/add-comment.component";
+import { CommentListComponent } from "../../comment/comment-list/comment-list.component";
+import { Comment } from '../../../models/comment.model';
+import { Subject } from 'rxjs';
+import { MatIcon } from '@angular/material/icon';
 
 @Component({
   selector: 'app-post-detail',
   standalone: true,
-  imports: [MatDividerModule, MatCardModule, MatButtonModule, AddReviewComponent, ReviewListComponent],
+  imports: [MatDividerModule, MatCardModule, MatButtonModule, AddReviewComponent, ReviewListComponent, AddCommentComponent, CommentListComponent, MatIcon],
   templateUrl: './post-detail.component.html',
   styleUrl: './post-detail.component.css'
 })
 export class PostDetailComponent {
-  router: Router = inject(Router);
+router: Router = inject(Router);
 onEdit(post: Post) {
   this.router.navigate(['/add-post'], {
     queryParams: {
@@ -34,6 +39,8 @@ onEdit(post: Post) {
   post!: Post;
   currentUsername: string = localStorage.getItem('username') || '';
   role: string = localStorage.getItem('role') || '';
+  commentsUpdated = new Subject<void>();
+
   ngOnInit() {
     
     this.postService.getPost(this.id).subscribe({
@@ -42,5 +49,18 @@ onEdit(post: Post) {
       }
     })
   };
+
+  commentAdded($event: Comment) {
+    this.post.comments.push($event);
+  }
+
+  onPublish(post: Post) {
+    this.postService.publishPost(post.id).subscribe({
+      next: () => {
+        alert('Post published');
+        this.post.status = 'PUBLISHED';
+      }
+    });
+  }
 }
 

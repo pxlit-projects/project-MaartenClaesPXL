@@ -2,16 +2,18 @@ import { inject, Injectable } from '@angular/core';
 import { Review } from '../models/review.model';
 import { catchError, throwError } from 'rxjs';
 import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ReviewService {
   http: HttpClient = inject(HttpClient);
+  api: string = environment.apiUrl;
   
   addReview(newReview: Review, postId: number) {
     return this.http
-      .post<Review>('http://localhost:8083/review/api/reviews/' + postId + '/addReview', newReview)
+      .post<Review>(`${this.api}/review/api/reviews/${postId}/addReview`, newReview)
       .pipe(catchError(this.handleError));
   }
 
