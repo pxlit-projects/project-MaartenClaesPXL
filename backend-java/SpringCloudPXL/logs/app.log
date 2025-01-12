@@ -2725,3 +2725,63 @@
 2025-01-12T17:29:10.889+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.api.controller.PostController - Gebruiker - get all posts
 2025-01-12T17:29:33.818+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.api.controller.PostController - Gebruiker - get all posts
 2025-01-12T17:29:38.745+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.api.controller.PostController - Gebruiker - get all posts
+2025-01-12T17:34:53.947+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Starting PostServiceApplication using Java 21.0.2 with PID 27496 (C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\post-service\target\classes started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL)
+2025-01-12T17:34:53.948+0100 DEBUG              [main]                         be.pxl.services.PostServiceApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T17:34:53.949+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T17:35:02.076+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Started PostServiceApplication in 10.195 seconds (process running for 10.895)
+2025-01-12T17:38:51.475+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.api.controller.PostController - Gebruiker - get all posts
+2025-01-12T17:39:22.465+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.api.controller.PostController - Redacteur - get all posts
+2025-01-12T17:39:29.090+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.api.controller.PostController - POST post request: CreatePostRequest(title=tetetet, content=udyazfvuyze, author=admin, authorEmail=12202385@student.pxl.be, isConcept=false)
+2025-01-12T17:39:29.090+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.service.PostService - Adding unreviewed post
+2025-01-12T17:39:29.161+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.service.PostService - Added post: Post(id=2, title=tetetet, content=udyazfvuyze, author=admin, authorEmail=12202385@student.pxl.be, postDate=Sun Jan 12 17:39:29 CET 2025, status=UNREVIEWED, reviews=null, comments=null)
+2025-01-12T17:39:29.201+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.api.controller.PostController - Redacteur - get all posts
+2025-01-12T17:39:53.383+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.api.controller.PostController - Redacteur - get all posts
+2025-01-12T17:40:00.798+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.api.controller.PostController - Gebruiker - get all posts
+2025-01-12T17:40:15.701+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.api.controller.PostController - Redacteur - get all posts
+2025-01-12T17:40:17.352+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.api.controller.PostController - GET post: 2
+2025-01-12T17:40:19.246+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.api.controller.PostController - Redacteur - get all posts
+2025-01-12T17:40:32.691+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.api.controller.PostController - Gebruiker - get all posts
+2025-01-12T17:40:33.355+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.api.controller.PostController - GET post: 1
+2025-01-12T17:40:33.497+0100 INFO               [http-nio-8093-exec-5]         be.pxl.services.api.controller.ReviewController - GET review: 1
+2025-01-12T17:40:41.709+0100 INFO               [http-nio-8084-exec-3]         be.pxl.services.api.controller.CommentController - POST comment: CreateCommentRequest(text=wauw di wist ik niet, commenter=commenter1)
+2025-01-12T17:40:41.711+0100 INFO               [http-nio-8084-exec-3]         be.pxl.services.service.CommentService - addComment
+2025-01-12T17:40:41.856+0100 INFO               [http-nio-8084-exec-3]         be.pxl.services.service.CommentService - comment added
+2025-01-12T17:40:41.999+0100 INFO               [http-nio-8084-exec-3]         be.pxl.services.service.CommentService - comment sent to queue
+2025-01-12T17:40:42.020+0100 INFO               [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] be.pxl.services.service.PostService - Adding comment from queue: CommentDetail(id=1, postId=1, text=wauw di wist ik niet, commenter=commenter1)
+2025-01-12T17:40:42.072+0100 INFO               [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] be.pxl.services.service.PostService - Added comment to post: Post(id=1, title=Post-1-updated, content=post 1 is kleine content, author=admin, authorEmail=12202385@student.pxl.be, postDate=null, status=PUBLISHED, reviews=[1], comments=[1])
+2025-01-12T17:41:03.836+0100 INFO               [http-nio-8084-exec-4]         be.pxl.services.api.controller.CommentController - PUT comment: UpdateCommentRequest(text=wauw di wist ik niet,
+edit: eigenlijk wel, GEFOPT!!!)
+2025-01-12T17:41:03.916+0100 INFO               [http-nio-8084-exec-4]         be.pxl.services.service.CommentService - comment updated
+2025-01-12T17:41:08.551+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.api.controller.PostController - Gebruiker - get all posts
+2025-01-12T17:41:09.372+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.api.controller.PostController - GET post: 1
+2025-01-12T17:41:09.414+0100 INFO               [http-nio-8093-exec-8]         be.pxl.services.api.controller.ReviewController - GET review: 1
+2025-01-12T17:41:09.458+0100 INFO               [http-nio-8084-exec-1]         be.pxl.services.api.controller.CommentController - GET comment: 1
+2025-01-12T17:41:11.006+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.api.controller.PostController - Gebruiker - get all posts
+2025-01-12T17:41:11.694+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.api.controller.PostController - GET post: 1
+2025-01-12T17:41:11.721+0100 INFO               [http-nio-8093-exec-9]         be.pxl.services.api.controller.ReviewController - GET review: 1
+2025-01-12T17:41:11.789+0100 INFO               [http-nio-8084-exec-2]         be.pxl.services.api.controller.CommentController - GET comment: 1
+2025-01-12T17:41:25.583+0100 INFO               [http-nio-8084-exec-5]         be.pxl.services.api.controller.CommentController - PUT comment: UpdateCommentRequest(text=wauw di wist ik niet
+edit: eigenlijk wel, GEFOPT!!!)
+2025-01-12T17:41:25.604+0100 INFO               [http-nio-8084-exec-5]         be.pxl.services.service.CommentService - comment updated
+2025-01-12T17:41:30.999+0100 INFO               [http-nio-8084-exec-6]         be.pxl.services.api.controller.CommentController - DELETE comment: 1
+2025-01-12T17:41:31.036+0100 INFO               [http-nio-8084-exec-6]         be.pxl.services.service.CommentService - comment deleted
+2025-01-12T17:41:31.037+0100 INFO               [http-nio-8084-exec-6]         be.pxl.services.service.CommentService - delete comment sent to queue
+2025-01-12T17:41:31.043+0100 INFO               [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] be.pxl.services.service.PostService - Deleting comment from queue: CommentDetail(id=1, postId=1, text=wauw di wist ik niet
+edit: eigenlijk wel, GEFOPT!!!, commenter=commenter1)
+2025-01-12T17:41:31.066+0100 INFO               [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] be.pxl.services.service.PostService - Deleted comment to post: Post(id=1, title=Post-1-updated, content=post 1 is kleine content, author=admin, authorEmail=12202385@student.pxl.be, postDate=null, status=PUBLISHED, reviews=[1], comments=[])
+2025-01-12T17:41:32.245+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.api.controller.PostController - Gebruiker - get all posts
+2025-01-12T17:41:33.472+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.api.controller.PostController - GET post: 1
+2025-01-12T17:41:33.495+0100 INFO               [http-nio-8093-exec-2]         be.pxl.services.api.controller.ReviewController - GET review: 1
+2025-01-12T17:52:12.859+0100 INFO               [http-nio-8082-exec-9]         be.pxl.services.api.controller.PostController - Gebruiker - get all posts
+2025-01-12T17:52:15.108+0100 INFO               [http-nio-8082-exec-10]        be.pxl.services.api.controller.PostController - Gebruiker - get all posts
+2025-01-12T17:52:16.083+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.api.controller.PostController - GET post: 1
+2025-01-12T17:52:16.246+0100 INFO               [http-nio-8093-exec-6]         be.pxl.services.api.controller.ReviewController - GET review: 1
+2025-01-12T17:52:26.605+0100 INFO               [http-nio-8082-exec-4]         be.pxl.services.api.controller.PostController - Gebruiker - get all posts
+2025-01-12T17:52:35.422+0100 INFO               [http-nio-8082-exec-3]         be.pxl.services.api.controller.PostController - Redacteur - get all posts
+2025-01-12T17:52:36.204+0100 INFO               [http-nio-8082-exec-5]         be.pxl.services.api.controller.PostController - GET post: 2
+2025-01-12T17:52:39.421+0100 INFO               [http-nio-8082-exec-2]         be.pxl.services.api.controller.PostController - Redacteur - get all posts
+2025-01-12T17:52:40.272+0100 INFO               [http-nio-8082-exec-6]         be.pxl.services.api.controller.PostController - GET post: 1
+2025-01-12T17:52:40.300+0100 INFO               [http-nio-8093-exec-10]        be.pxl.services.api.controller.ReviewController - GET review: 1
+2025-01-12T17:52:43.551+0100 INFO               [http-nio-8082-exec-8]         be.pxl.services.api.controller.PostController - GET post: 1
+2025-01-12T17:52:43.599+0100 INFO               [http-nio-8093-exec-7]         be.pxl.services.api.controller.ReviewController - GET review: 1
+2025-01-12T17:52:50.003+0100 INFO               [http-nio-8082-exec-7]         be.pxl.services.api.controller.PostController - Redacteur - get all posts

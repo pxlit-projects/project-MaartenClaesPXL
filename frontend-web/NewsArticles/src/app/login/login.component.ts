@@ -19,6 +19,7 @@ import { Router } from '@angular/router';
 export class LoginComponent {
   authService: AuthService = inject(AuthService);
   router: Router = inject(Router);
+  
   onSubmit(loginForm: any) {
     this.authService.login(loginForm.value);
     this.router.navigate(['/posts-list']);

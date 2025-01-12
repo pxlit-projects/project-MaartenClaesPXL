@@ -72,6 +72,8 @@ export class PostListComponent {
       if (this.filters.date) {
         const filterDate = new Date(this.filters.date); // Parse the selected filter date
         const postDate = new Date(post.postDate); // Parse the post's date
+        console.log(post.postDate);
+        console.log(filterDate, postDate);
   
         // Compare year, month, and day explicitly to handle time differences
         matchesDate =

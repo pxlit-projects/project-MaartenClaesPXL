@@ -21,7 +21,6 @@ export class CommentService {
     return this.http
       .delete<Comment>(`${this.api}/comment/api/comments/` + commentId)
       .pipe(catchError(this.handleError));
-      
   }
 
   updateComment(text: String, commentId: number) {
