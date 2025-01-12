@@ -5,6 +5,7 @@ import be.pxl.services.api.dto.CommentDTO;
 import be.pxl.services.api.request.CreateCommentRequest;
 import be.pxl.services.api.request.UpdateCommentRequest;
 import be.pxl.services.domain.Comment;
+import be.pxl.services.exceptions.CommentNotFoundException;
 import be.pxl.services.repository.CommentRepository;
 import jakarta.ws.rs.NotFoundException;
 import lombok.RequiredArgsConstructor;
@@ -41,7 +42,7 @@ public class CommentService implements ICommentService {
         Comment comment = commentRepository.findById(id).orElse(null);
         if (comment == null) {
             log.info("comment not found");
-            throw new NotFoundException("Comment not found");
+            throw new CommentNotFoundException("Comment not found");
         }
         return new CommentDTO(comment);
     }
@@ -51,7 +52,7 @@ public class CommentService implements ICommentService {
         Comment comment = commentRepository.findById(id).orElse(null);
         if (comment == null) {
             log.info("comment not found");
-            throw new NotFoundException("Comment not found");
+            throw new CommentNotFoundException("Comment not found");
         }
         comment.setText(updateCommentRequest.getText());
         commentRepository.save(comment);
@@ -64,7 +65,7 @@ public class CommentService implements ICommentService {
         Comment comment = commentRepository.findById(id).orElse(null);
         if (comment == null) {
             log.info("comment not found");
-            throw new NotFoundException("Comment not found");
+            throw new CommentNotFoundException("Comment not found");
         }
         commentRepository.delete(comment);
         log.info("comment deleted");

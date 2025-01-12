@@ -1,0 +1,124 @@
+2025-01-11T18:15:33.689+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Starting ReviewTests using Java 21.0.2 with PID 13956 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\review-service)
+2025-01-11T18:15:33.692+0100 DEBUG              [main]                         be.pxl.services.ReviewTests   - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-11T18:15:33.697+0100 INFO               [main]                         be.pxl.services.ReviewTests   - No active profile set, falling back to 1 default profile: "default"
+2025-01-11T18:15:41.962+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Started ReviewTests in 11.256 seconds (process running for 27.537)
+2025-01-11T18:21:38.847+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Starting ReviewTests using Java 21.0.2 with PID 34612 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\review-service)
+2025-01-11T18:21:38.848+0100 DEBUG              [main]                         be.pxl.services.ReviewTests   - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-11T18:21:38.849+0100 INFO               [main]                         be.pxl.services.ReviewTests   - No active profile set, falling back to 1 default profile: "default"
+2025-01-11T18:21:45.505+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Started ReviewTests in 8.437 seconds (process running for 23.369)
+2025-01-11T18:21:46.106+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - POST review: CreateReviewRequest(isApproved=false, description=null, reviewer=null)
+2025-01-11T18:21:46.106+0100 INFO               [main]                         be.pxl.services.service.ReviewService - addReview: CreateReviewRequest(isApproved=false, description=null, reviewer=null)
+2025-01-11T18:21:46.159+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added: Review(id=1, postId=1, isApproved=false, description=null, reviewer=null)
+2025-01-11T18:21:46.244+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added to queue
+2025-01-11T18:21:46.339+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-11T18:22:53.898+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Starting ReviewTests using Java 21.0.2 with PID 13192 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\review-service)
+2025-01-11T18:22:53.900+0100 DEBUG              [main]                         be.pxl.services.ReviewTests   - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-11T18:22:53.901+0100 INFO               [main]                         be.pxl.services.ReviewTests   - No active profile set, falling back to 1 default profile: "default"
+2025-01-11T18:23:04.775+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Started ReviewTests in 13.352 seconds (process running for 35.7)
+2025-01-11T18:23:05.789+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - POST review: CreateReviewRequest(isApproved=false, description=null, reviewer=null)
+2025-01-11T18:23:05.790+0100 INFO               [main]                         be.pxl.services.service.ReviewService - addReview: CreateReviewRequest(isApproved=false, description=null, reviewer=null)
+2025-01-11T18:23:05.877+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added: Review(id=1, postId=1, isApproved=false, description=null, reviewer=null)
+2025-01-11T18:23:06.020+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added to queue
+2025-01-11T18:23:06.154+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-11T18:23:38.602+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Starting ReviewTests using Java 21.0.2 with PID 41100 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\review-service)
+2025-01-11T18:23:38.604+0100 DEBUG              [main]                         be.pxl.services.ReviewTests   - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-11T18:23:38.605+0100 INFO               [main]                         be.pxl.services.ReviewTests   - No active profile set, falling back to 1 default profile: "default"
+2025-01-11T18:23:49.673+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Started ReviewTests in 13.692 seconds (process running for 35.209)
+2025-01-11T18:23:50.725+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - POST review: CreateReviewRequest(isApproved=false, description=null, reviewer=null)
+2025-01-11T18:23:50.726+0100 INFO               [main]                         be.pxl.services.service.ReviewService - addReview: CreateReviewRequest(isApproved=false, description=null, reviewer=null)
+2025-01-11T18:23:50.802+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added: Review(id=1, postId=1, isApproved=false, description=null, reviewer=null)
+2025-01-11T18:23:50.941+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added to queue
+2025-01-11T18:23:51.096+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-11T18:26:57.464+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Starting ReviewTests using Java 21.0.2 with PID 37452 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\review-service)
+2025-01-11T18:26:57.465+0100 DEBUG              [main]                         be.pxl.services.ReviewTests   - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-11T18:26:57.466+0100 INFO               [main]                         be.pxl.services.ReviewTests   - No active profile set, falling back to 1 default profile: "default"
+2025-01-11T18:27:08.195+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Started ReviewTests in 13.071 seconds (process running for 34.7)
+2025-01-11T18:27:09.335+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - POST review: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:27:09.336+0100 INFO               [main]                         be.pxl.services.service.ReviewService - addReview: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:27:09.420+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added: Review(id=1, postId=1, isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:27:09.566+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added to queue
+2025-01-11T18:27:09.737+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-11T18:27:41.881+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Starting ReviewTests using Java 21.0.2 with PID 2632 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\review-service)
+2025-01-11T18:27:41.883+0100 DEBUG              [main]                         be.pxl.services.ReviewTests   - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-11T18:27:41.885+0100 INFO               [main]                         be.pxl.services.ReviewTests   - No active profile set, falling back to 1 default profile: "default"
+2025-01-11T18:27:53.389+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Started ReviewTests in 14.08 seconds (process running for 36.515)
+2025-01-11T18:27:54.474+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - POST review: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:27:54.475+0100 INFO               [main]                         be.pxl.services.service.ReviewService - addReview: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:27:54.567+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added: Review(id=1, postId=1, isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:27:54.714+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added to queue
+2025-01-11T18:27:54.872+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-11T18:29:31.563+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Starting ReviewTests using Java 21.0.2 with PID 23548 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\review-service)
+2025-01-11T18:29:31.565+0100 DEBUG              [main]                         be.pxl.services.ReviewTests   - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-11T18:29:31.567+0100 INFO               [main]                         be.pxl.services.ReviewTests   - No active profile set, falling back to 1 default profile: "default"
+2025-01-11T18:29:42.477+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Started ReviewTests in 13.309 seconds (process running for 35.555)
+2025-01-11T18:29:43.622+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - POST review: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:29:43.622+0100 INFO               [main]                         be.pxl.services.service.ReviewService - addReview: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:29:43.702+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added: Review(id=1, postId=1, isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:29:43.844+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added to queue
+2025-01-11T18:29:44.011+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-11T18:36:19.840+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Starting ReviewTests using Java 21.0.2 with PID 8152 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\review-service)
+2025-01-11T18:36:19.841+0100 DEBUG              [main]                         be.pxl.services.ReviewTests   - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-11T18:36:19.842+0100 INFO               [main]                         be.pxl.services.ReviewTests   - No active profile set, falling back to 1 default profile: "default"
+2025-01-11T18:36:30.743+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Started ReviewTests in 13.326 seconds (process running for 37.839)
+2025-01-11T18:36:31.815+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 999
+2025-01-11T18:36:31.847+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review not found: 999
+2025-01-11T18:36:31.928+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - POST review: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:36:31.929+0100 INFO               [main]                         be.pxl.services.service.ReviewService - addReview: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:36:32.029+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added: Review(id=1, postId=1, isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:36:32.203+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added to queue
+2025-01-11T18:36:32.366+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-11T18:42:23.539+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Starting ReviewTests using Java 21.0.2 with PID 2120 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\review-service)
+2025-01-11T18:42:23.541+0100 DEBUG              [main]                         be.pxl.services.ReviewTests   - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-11T18:42:23.542+0100 INFO               [main]                         be.pxl.services.ReviewTests   - No active profile set, falling back to 1 default profile: "default"
+2025-01-11T18:42:34.387+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Started ReviewTests in 13.301 seconds (process running for 36.053)
+2025-01-11T18:42:35.441+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 999
+2025-01-11T18:42:35.467+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review not found: 999
+2025-01-11T18:42:35.542+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - POST review: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:42:35.542+0100 INFO               [main]                         be.pxl.services.service.ReviewService - addReview: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:42:35.631+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added: Review(id=1, postId=1, isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:42:35.782+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added to queue
+2025-01-11T18:42:35.924+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-11T18:45:30.112+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Starting ReviewTests using Java 21.0.2 with PID 4236 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\review-service)
+2025-01-11T18:45:30.113+0100 DEBUG              [main]                         be.pxl.services.ReviewTests   - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-11T18:45:30.114+0100 INFO               [main]                         be.pxl.services.ReviewTests   - No active profile set, falling back to 1 default profile: "default"
+2025-01-11T18:45:41.381+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Started ReviewTests in 13.751 seconds (process running for 36.746)
+2025-01-11T18:45:42.440+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 999
+2025-01-11T18:45:42.470+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review not found: 999
+2025-01-11T18:45:42.553+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - POST review: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:45:42.554+0100 INFO               [main]                         be.pxl.services.service.ReviewService - addReview: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:45:42.685+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added: Review(id=1, postId=1, isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T18:45:42.855+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added to queue
+2025-01-11T18:45:43.011+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-11T19:26:18.355+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Starting ReviewTests using Java 21.0.2 with PID 9504 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\review-service)
+2025-01-11T19:26:18.356+0100 DEBUG              [main]                         be.pxl.services.ReviewTests   - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-11T19:26:18.357+0100 INFO               [main]                         be.pxl.services.ReviewTests   - No active profile set, falling back to 1 default profile: "default"
+2025-01-11T19:26:28.021+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Started ReviewTests in 11.485 seconds (process running for 25.155)
+2025-01-11T19:26:28.256+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 999
+2025-01-11T19:26:28.275+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review not found: 999
+2025-01-11T19:26:28.325+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - POST review: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T19:26:28.325+0100 INFO               [main]                         be.pxl.services.service.ReviewService - addReview: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T19:26:28.385+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added: Review(id=1, postId=1, isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T19:26:28.387+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added to queue
+2025-01-11T19:26:28.483+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-11T19:31:12.876+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Starting ReviewTests using Java 21.0.2 with PID 27548 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\review-service)
+2025-01-11T19:31:12.877+0100 DEBUG              [main]                         be.pxl.services.ReviewTests   - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-11T19:31:12.878+0100 INFO               [main]                         be.pxl.services.ReviewTests   - No active profile set, falling back to 1 default profile: "default"
+2025-01-11T19:31:21.630+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Started ReviewTests in 10.616 seconds (process running for 25.627)
+2025-01-11T19:31:21.859+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 999
+2025-01-11T19:31:21.877+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review not found: 999
+2025-01-11T19:31:21.926+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - POST review: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T19:31:21.926+0100 INFO               [main]                         be.pxl.services.service.ReviewService - addReview: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T19:31:21.986+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added: Review(id=1, postId=1, isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T19:31:21.988+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added to queue
+2025-01-11T19:31:22.102+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 2
+2025-01-11T20:36:35.113+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Starting ReviewTests using Java 21.0.2 with PID 17420 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\review-service)
+2025-01-11T20:36:35.115+0100 DEBUG              [main]                         be.pxl.services.ReviewTests   - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-11T20:36:35.115+0100 INFO               [main]                         be.pxl.services.ReviewTests   - No active profile set, falling back to 1 default profile: "default"
+2025-01-11T20:36:44.838+0100 INFO               [main]                         be.pxl.services.ReviewTests   - Started ReviewTests in 11.554 seconds (process running for 25.916)
+2025-01-11T20:36:45.045+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 999
+2025-01-11T20:36:45.063+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review not found: 999
+2025-01-11T20:36:45.109+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - POST review: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T20:36:45.110+0100 INFO               [main]                         be.pxl.services.service.ReviewService - addReview: CreateReviewRequest(isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T20:36:45.167+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added: Review(id=1, postId=1, isApproved=true, description=testDescription, reviewer=testReviewer)
+2025-01-11T20:36:45.169+0100 INFO               [main]                         be.pxl.services.service.ReviewService - Review added to queue
+2025-01-11T20:36:45.254+0100 INFO               [main]                         be.pxl.services.api.controller.ReviewController - GET review: 2

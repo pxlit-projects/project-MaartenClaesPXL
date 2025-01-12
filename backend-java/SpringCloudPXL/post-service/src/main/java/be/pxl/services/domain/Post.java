@@ -41,6 +41,8 @@ public class Post {
         this.author = author;
         this.status = status;
         this.postDate = new Date();
+        this.comments = new ArrayList<>();
+        this.reviews = new ArrayList<>();
     }
 
     public void addReview(Long id) {

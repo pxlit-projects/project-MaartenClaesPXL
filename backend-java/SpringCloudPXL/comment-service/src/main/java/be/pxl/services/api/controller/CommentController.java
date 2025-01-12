@@ -3,6 +3,7 @@ package be.pxl.services.api.controller;
 import be.pxl.services.api.dto.CommentDTO;
 import be.pxl.services.api.request.CreateCommentRequest;
 import be.pxl.services.api.request.UpdateCommentRequest;
+import be.pxl.services.exceptions.CommentNotFoundException;
 import be.pxl.services.service.CommentService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;

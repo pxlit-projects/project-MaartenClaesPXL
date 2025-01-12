@@ -1,8 +1,9 @@
 package be.pxl.services.api.dto;
 
-
+import be.pxl.services.domain.CommentDetail;
 import be.pxl.services.domain.Post;
 import be.pxl.services.domain.PostStatus;
+import be.pxl.services.domain.ReviewDetail;
 import lombok.Data;
 
 import java.util.Date;
@@ -17,8 +18,8 @@ public class PostDTO {
     private String authorEmail;
     private Date postDate;
     private PostStatus status;
-    private List<ReviewDTO> reviews;
-    private List<CommentDTO> comments;
+    private List<ReviewDetail> reviews;
+    private List<CommentDetail> comments;
 
     public PostDTO(Post post) {
         this.id = post.getId();

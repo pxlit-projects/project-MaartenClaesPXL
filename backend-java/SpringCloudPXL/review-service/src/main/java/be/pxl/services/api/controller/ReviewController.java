@@ -2,6 +2,7 @@ package be.pxl.services.api.controller;
 
 import be.pxl.services.api.dto.ReviewDTO;
 import be.pxl.services.api.request.CreateReviewRequest;
+import be.pxl.services.exceptions.ReviewNotFoundException;
 import be.pxl.services.service.ReviewService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
@@ -27,9 +28,9 @@ public class ReviewController {
     }
 
     @GetMapping("/{id}")
-    public ReviewDTO getReviewById(@PathVariable Long id) {
+    public ResponseEntity<ReviewDTO> getReviewById(@PathVariable Long id) {
         log.info("GET review: " + id);
         ReviewDTO reviewDTO = reviewService.getReviewById(id);
-        return reviewDTO;
+        return new ResponseEntity<>(reviewDTO, HttpStatus.OK);
     }
 }

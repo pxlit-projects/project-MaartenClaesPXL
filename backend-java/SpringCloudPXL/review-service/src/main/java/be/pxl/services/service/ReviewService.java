@@ -3,6 +3,7 @@ package be.pxl.services.service;
 import be.pxl.services.api.dto.ReviewDTO;
 import be.pxl.services.api.request.CreateReviewRequest;
 import be.pxl.services.domain.Review;
+import be.pxl.services.exceptions.ReviewNotFoundException;
 import be.pxl.services.repository.ReviewRepository;
 import jakarta.ws.rs.NotFoundException;
 import lombok.RequiredArgsConstructor;
@@ -39,7 +40,7 @@ public class ReviewService implements IReviewService {
         Review review = reviewRepository.findById(id).orElse(null);
         if (review == null) {
             log.info("Review not found: " + id);
-            throw new NotFoundException("Review not found");
+            throw new ReviewNotFoundException("Review not found");
         }
         return new ReviewDTO(review);
     }

@@ -1,0 +1,80 @@
+2025-01-12T00:28:35.363+0100 INFO               [main]                         be.pxl.services.CommentTests  - Starting CommentTests using Java 21.0.2 with PID 14308 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\comment-service)
+2025-01-12T00:28:35.373+0100 DEBUG              [main]                         be.pxl.services.CommentTests  - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T00:28:35.374+0100 INFO               [main]                         be.pxl.services.CommentTests  - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T00:28:48.649+0100 INFO               [main]                         be.pxl.services.CommentTests  - Started CommentTests in 15.999 seconds (process running for 32.816)
+2025-01-12T00:28:49.181+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - DELETE comment: 1
+2025-01-12T00:28:49.240+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment deleted
+2025-01-12T00:28:49.242+0100 INFO               [main]                         be.pxl.services.service.CommentService - delete comment sent to queue
+2025-01-12T00:28:49.309+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - GET comment: 999
+2025-01-12T00:28:49.318+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment not found
+2025-01-12T00:28:49.358+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - PUT comment: UpdateCommentRequest(text=updated test text)
+2025-01-12T00:28:49.370+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment not found
+2025-01-12T00:28:49.391+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - POST comment: CreateCommentRequest(text=test text, commenter=commenter)
+2025-01-12T00:28:49.392+0100 INFO               [main]                         be.pxl.services.service.CommentService - addComment
+2025-01-12T00:28:49.412+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment added
+2025-01-12T00:28:49.413+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment sent to queue
+2025-01-12T00:28:49.467+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - DELETE comment: 30
+2025-01-12T00:28:49.476+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment not found
+2025-01-12T00:28:49.518+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - GET comment: 3
+2025-01-12T00:28:49.658+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - PUT comment: UpdateCommentRequest(text=updated test text)
+2025-01-12T00:28:49.684+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment updated
+2025-01-12T01:35:51.886+0100 INFO               [main]                         be.pxl.services.CommentTests  - Starting CommentTests using Java 21.0.2 with PID 29400 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\comment-service)
+2025-01-12T01:35:51.889+0100 DEBUG              [main]                         be.pxl.services.CommentTests  - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T01:35:51.890+0100 INFO               [main]                         be.pxl.services.CommentTests  - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T01:36:03.614+0100 INFO               [main]                         be.pxl.services.CommentTests  - Started CommentTests in 14.226 seconds (process running for 30.366)
+2025-01-12T01:36:04.061+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - DELETE comment: 1
+2025-01-12T01:36:04.098+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment deleted
+2025-01-12T01:36:04.100+0100 INFO               [main]                         be.pxl.services.service.CommentService - delete comment sent to queue
+2025-01-12T01:36:04.162+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - GET comment: 999
+2025-01-12T01:36:04.169+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment not found
+2025-01-12T01:36:04.201+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - PUT comment: UpdateCommentRequest(text=updated test text)
+2025-01-12T01:36:04.210+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment not found
+2025-01-12T01:36:04.227+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - POST comment: CreateCommentRequest(text=test text, commenter=commenter)
+2025-01-12T01:36:04.228+0100 INFO               [main]                         be.pxl.services.service.CommentService - addComment
+2025-01-12T01:36:04.250+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment added
+2025-01-12T01:36:04.250+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment sent to queue
+2025-01-12T01:36:04.309+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - DELETE comment: 30
+2025-01-12T01:36:04.317+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment not found
+2025-01-12T01:36:04.353+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - GET comment: 3
+2025-01-12T01:36:04.478+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - PUT comment: UpdateCommentRequest(text=updated test text)
+2025-01-12T01:36:04.500+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment updated
+2025-01-12T17:42:16.369+0100 INFO               [main]                         be.pxl.services.CommentTests  - Starting CommentTests using Java 21.0.2 with PID 17076 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\comment-service)
+2025-01-12T17:42:16.370+0100 DEBUG              [main]                         be.pxl.services.CommentTests  - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T17:42:16.371+0100 INFO               [main]                         be.pxl.services.CommentTests  - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T17:42:29.363+0100 INFO               [main]                         be.pxl.services.CommentTests  - Started CommentTests in 15.493 seconds (process running for 38.236)
+2025-01-12T17:42:29.795+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - DELETE comment: 1
+2025-01-12T17:42:29.840+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment deleted
+2025-01-12T17:42:29.843+0100 INFO               [main]                         be.pxl.services.service.CommentService - delete comment sent to queue
+2025-01-12T17:42:29.913+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - GET comment: 999
+2025-01-12T17:42:29.921+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment not found
+2025-01-12T17:42:29.977+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - PUT comment: UpdateCommentRequest(text=updated test text)
+2025-01-12T17:42:29.991+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment not found
+2025-01-12T17:42:30.016+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - POST comment: CreateCommentRequest(text=test text, commenter=commenter)
+2025-01-12T17:42:30.016+0100 INFO               [main]                         be.pxl.services.service.CommentService - addComment
+2025-01-12T17:42:30.033+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment added
+2025-01-12T17:42:30.033+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment sent to queue
+2025-01-12T17:42:30.077+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - DELETE comment: 30
+2025-01-12T17:42:30.084+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment not found
+2025-01-12T17:42:30.116+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - GET comment: 3
+2025-01-12T17:42:30.232+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - PUT comment: UpdateCommentRequest(text=updated test text)
+2025-01-12T17:42:30.255+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment updated
+2025-01-12T17:51:17.747+0100 INFO               [main]                         be.pxl.services.CommentTests  - Starting CommentTests using Java 21.0.2 with PID 34708 (started by 12202385 in C:\Users\12202385\Documents\3AONc\Fullstack_JAVA\PE\project-MaartenClaesPXL\backend-java\SpringCloudPXL\comment-service)
+2025-01-12T17:51:17.751+0100 DEBUG              [main]                         be.pxl.services.CommentTests  - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-01-12T17:51:17.752+0100 INFO               [main]                         be.pxl.services.CommentTests  - No active profile set, falling back to 1 default profile: "default"
+2025-01-12T17:51:30.914+0100 INFO               [main]                         be.pxl.services.CommentTests  - Started CommentTests in 15.636 seconds (process running for 32.563)
+2025-01-12T17:51:31.415+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - DELETE comment: 1
+2025-01-12T17:51:31.457+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment deleted
+2025-01-12T17:51:31.459+0100 INFO               [main]                         be.pxl.services.service.CommentService - delete comment sent to queue
+2025-01-12T17:51:31.515+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - GET comment: 999
+2025-01-12T17:51:31.524+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment not found
+2025-01-12T17:51:31.556+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - PUT comment: UpdateCommentRequest(text=updated test text)
+2025-01-12T17:51:31.566+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment not found
+2025-01-12T17:51:31.590+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - POST comment: CreateCommentRequest(text=test text, commenter=commenter)
+2025-01-12T17:51:31.590+0100 INFO               [main]                         be.pxl.services.service.CommentService - addComment
+2025-01-12T17:51:31.608+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment added
+2025-01-12T17:51:31.609+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment sent to queue
+2025-01-12T17:51:31.656+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - DELETE comment: 30
+2025-01-12T17:51:31.664+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment not found
+2025-01-12T17:51:31.697+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - GET comment: 3
+2025-01-12T17:51:31.798+0100 INFO               [main]                         be.pxl.services.api.controller.CommentController - PUT comment: UpdateCommentRequest(text=updated test text)
+2025-01-12T17:51:31.821+0100 INFO               [main]                         be.pxl.services.service.CommentService - comment updated
