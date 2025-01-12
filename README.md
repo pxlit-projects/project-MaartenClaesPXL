@@ -17,7 +17,7 @@ Each folder contains its own specific `.gitignore` file.
 ## How to setup and run this application
 
 ### Frontend:
-Go to `/frontend-web/NewsArticles` and execute `ng build`.
+Go to `/frontend-web/NewsArticles/` and execute `ng build`.
 Go back to the root of the project and execute `docker compose up`.
 After this you can go to `localhost:8001` in your browser.
 
